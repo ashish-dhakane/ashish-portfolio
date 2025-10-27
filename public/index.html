@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ashish Dhakane - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <span class="logo-text">"Ashish Dhakane"</span>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">Personal Details</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="hamburger"><span></span><span></span><span></span></div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">Hi, I'm <span>Ashish Dhakane</span></h1>
+      <p class="hero-subtitle">A passionate developer building smart, modern web and AI solutions.</p>
+      <a href="#projects" class="cta-button">Explore My Work</a>
+    </div>
+    <div class="hero-background"></div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title">Personal Details</h2>
+      <div class="details-grid">
+        <!-- Education -->
+        <div class="detail-card fade-in">
+          <div class="card-icon"><i class="fas fa-graduation-cap"></i></div>
+          <h3>Education</h3>
+          <p>Blossom Public School</p>
+          <p>Sant Tukaram JR College</p>
+          <p>Pursuing B.Tech at Pimpri Chinchwad University</p>
+        </div>
+
+        <!-- Grades -->
+        <div class="detail-card fade-in">
+          <div class="card-icon"><i class="fas fa-chart-line"></i></div>
+          <h3>Grades</h3>
+          <p>10th: <strong>65%</strong></p>
+          <p>12th: <strong>67%</strong></p>
+          <p>Current CGPA: <strong>7.8</strong></p>
+        </div>
+
+        <!-- Skills -->
+        <div class="detail-card fade-in">
+          <div class="card-icon"><i class="fas fa-code"></i></div>
+          <h3>Skills</h3>
+          <p>HTML, CSS, JavaScript, Python, Java, IoT, Cybersecurity, GitHub</p>
+        </div>
+
+        <!-- Interests -->
+        <div class="detail-card fade-in">
+          <div class="card-icon"><i class="fas fa-lightbulb"></i></div>
+          <h3>Interests</h3>
+          <p>AI Development, Web Design, IoT Projects, Problem Solving</p>
+        </div>
+      </div>
+
+      <!-- Certifications -->
+      <section id="extra" class="section extra">
+        <h2>Certifications</h2>
+        <div class="card-container">
+          <div class="info-card" id="cert-card">
+            <h3>My Certificates</h3>
+            <p>Click to view all certificates with photos</p>
+          </div>
+        </div>
+
+        <!-- Certificates Popup -->
+        <div class="cert-popup" id="cert-popup">
+          <div class="cert-content">
+            <span class="close-btn" id="close-popup">&times;</span>
+            <h3>My Certifications</h3>
+ 
+            <div class="cert-images">
+ 
+              <img src="cert1.jpg" alt="contact me i will share if not visible" />
+              <img src="cert3.jpg" alt="contact me i will share if not visible" />
+              <img src="cert6.jpg" alt="contact me i will share if not visible" />
+              <img src="cert7.jpg" alt="contact me i will share if not visible" />
+              <img src="cert8.jpg" alt="contact me i will share if not visible" />
+              <img src="cert9.jpg" alt="contact me i will share if not visible" />
+              <img src="cert10.jpg"alt="contact me i will share if not visible" />
+              <img src="cert11.jpg"alt="contact me i will share if not visible" />
+ 
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <i class="fas fa-chart-line"></i>
+          <h3><a href="https://fusion-finance-dashboard.vercel.app/login">StockStage</a></h3>
+          <p>AI-powered stock market analyzer offering predictions and trends.
+          </p>
+        </div>
+        <div class="project-card">
+          <i class="fas fa-user-tie"></i>
+          <h3><a href="https://v0-ai-interview-module.vercel.app/">AI Interview Model</a></h3>
+          <p>Mock interview system using AI for feedback and performance evaluation.</p>
+        </div>
+        <div class="project-card">
+          <i class="fas fa-language"></i>
+          <h3>LinguAAIZE</h3>
+          <p>AI-driven platform for interactive, personalized language learning.</p>
+        </div>
+
+
+        <div class="project-card">
+          <i class="fas fa-cogs"></i>
+          <h3>Smart ERP System</h3>
+          <p>Web-based ERP solution for managing enterprise workflows efficiently.</p>
+        </div>
+
+
+        <div class="project-card">
+          <i class="fas fa-microchip"></i>
+          <h3>Smart Air Monitoring System</h3>
+          <p>IoT-based air quality tracker sending sensor data to the web via Python and USB.</p>
+        </div>
+
+        <div class="project-card">
+          <i class="fas fa-home"></i>
+          <h3>EasyRoof.com</h3>
+          <p>Real estate platform for simplified property search and management.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="contact-info">
+        <div class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <div><h4>Email</h4><a href="mailto:dhakneashish110@gmail.com">dhakneashish110@gmail.com</a></div>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-phone"></i>
+          <div><h4>Phone</h4><a href="tel:8830533848">8830533848</a></div>
+        </div>
+        <div class="contact-item">
+          <i class="fab fa-github"></i>
+          <div><h4>GitHub</h4><a href="https://github.com/ashish-dhakane" target="_blank">ashish-dhakane</a></div>
+        </div>
+        <div class="contact-item">
+          <i class="fab fa-linkedin"></i>
+          <div><h4>LinkedIn</h4><a href="https://www.linkedin.com/in/ashish-dhakane-971935289/" target="_blank">Ashish Dhakane</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Scroll To Top -->
+  <button id="scrollToTop" class="scroll-to-top"><i class="fas fa-arrow-up"></i></button>
+
+  <script src="script.js"></script>
+</body>
+</html>
